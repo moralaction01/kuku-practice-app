@@ -18,6 +18,10 @@ function Router() {
   );
 }
 
+// Kuku Practice App - Educational Multiplication Practice
+// Design: Friendly, child-focused interface with bright colors
+// Colors: Green (#10B981) primary, Orange (#F59E0B) accent, Blue (#93C5FD) support
+
 // NOTE: About Theme
 // - First choose a default theme according to your design style (dark or light bg), than change color palette in index.css
 //   to keep consistent foreground/background color across components
@@ -28,7 +32,6 @@ function App() {
     <ErrorBoundary>
       <ThemeProvider
         defaultTheme="light"
-        // switchable
       >
         <TooltipProvider>
           <Toaster />
